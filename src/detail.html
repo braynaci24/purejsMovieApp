@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="assets/styles/styles.css">
+    <title>MovieApp3</title>
+</head>
+
+<body>
+    <div class="containerDetail">
+        <header id="header">
+            <h2 class="siteTitle">Star Movie</h2>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </header><!-- end of .header-->
+        <div class="detailBannerContainer">
+            <div class="bannerHeader">
+                <a href="index.html">
+                    <i class="fa-solid fa-angle-left detailBackButton"></i>
+                </a>
+                <i class="fa-solid fa-share detailShareButton"></i>
+
+                <div class="shareMovieUrl">
+                    <input type="text" id="shareInput">
+                    <button class="cloneUrlButton">COPY</button>
+                </div>
+            </div>
+            <img src="https://via.placeholder.com/390x262/222" class="detailBanner" alt="">
+
+            <i class="fa-solid fa-circle-play detailBannerPlay"></i>
+
+            <img src="https://via.placeholder.com/164x250" class="detailVerticalBanner" alt="">
+        </div><!-- end of .detailBannerContainer-->
+        <div class="detailsContents">
+            <h2 class="text-center detailMovieTitle"></h2>
+            <div class="movieDetail text-center">
+                <i class="far fa-star star" data-num="1"></i>
+                <i class="far fa-star star" data-num="2"></i>
+                <i class="far fa-star star" data-num="3"></i>
+                <i class="far fa-star star" data-num="4"></i>
+                <i class="far fa-star star" data-num="5"></i>
+            </div>
+            <div class="movieSummary">
+
+            </div>
+            <span class="showMore">Show More</span>
+            <span class="notRead">Less more</span>
+            <div class="movieSliderHeader">
+                <h2 class="SliderTitle">Photos</h2>
+                <a href="#">View All</a>
+            </div>
+            <div class="swiper movieSlider current">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img class="SliderItem" src="" alt=""></div>
+                    <div class="swiper-slide"><img class="SliderItem" src="" alt=""></div>
+                    <div class="swiper-slide"><img class="SliderItem" src="" alt=""></div>
+                    ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+            <div class="movieSliderHeader">
+                <h2 class="SliderTitle">Videos</h2>
+                <a href="#">View All</a>
+            </div>
+            <!-- Slider main container -->
+            <div class="swiper movieSlider">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img class="SliderItem" src="" alt=""></div>
+                    <div class="swiper-slide"><img class="SliderItem" src="" alt=""></div>
+                    <div class="swiper-slide"><img class="SliderItem" src="" alt=""></div>
+                    ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+            <div class="blogAboutHeader">
+                <h2 class="blogTitle">Blogs About This Film</h2>
+                <a href="#">View All</a>
+            </div>
+            <div class="blogContainer">
+                <div class="blogItem">
+                    <img src="https://via.placeholder.com/170x120" class="blogImage" alt="">
+                    <span class="blogTime">3 hours ago</span>
+                    <h4 class="blogBigTitle"></h4>
+                </div>
+                <div class="blogItem">
+                    <img src="https://via.placeholder.com/170x120" class="blogImage" alt="">
+                    <span class="blogTime">3 hours ago</span>
+                    <h4 class="blogBigTitle"></h4>
+                </div>
+            </div>
+        </div><!-- end of .detailsContents-->
+
+        <div id="menu">
+            <a href="#" class="menuItem">
+                <i class="fa-solid fa-film"></i>
+            </a>
+            <a href="#" class="menuItem">
+                <i class="fa-solid fa-ticket"></i>
+            </a>
+            <a href="#" class="menuItem">
+                <i class="fa-solid fa-bell"></i>
+            </a>
+            <a href="#" class="menuItem">
+                <i class="fa-solid fa-user"></i>
+            </a>
+        </div><!-- end of .menu-->
+    </div>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="assets/scripts/main.js"></script>
+</body>
+
+</html>

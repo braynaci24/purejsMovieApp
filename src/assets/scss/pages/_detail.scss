@@ -1,0 +1,186 @@
+.text-center {
+    text-align: $alignCenter;
+}
+.detailBannerContainer {
+    position: relative;
+
+    .detailBanner {
+        width: 390px;
+        height: 415px;
+    }
+
+    .detailBannerPlay {
+        position: absolute;
+        top: 164px;
+        left: 180px;
+        font-size: 30px;
+        text-align: center;
+        color: #fff;
+    }
+    .bannerHeader {
+        justify-content: space-between;
+        display: flex;
+        width: 360px;
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        font-size: 30px;
+        color: #fff;
+
+        .detailShareButton {
+            font-size: 25px;
+            position: absolute;
+            right: 10px;
+            top: 5px;
+        }
+        .detailBackButton {
+            color: #fff;
+            text-decoration: none;
+            font-size: 33px;
+        }
+    }
+}
+
+
+    .shareMovieUrl {
+        font-size: 12px;
+        position: absolute;
+        top: 35px;
+        right: -5px;
+        background-color: #fff;
+        padding: 10px;
+        display: none;
+        width: 360px;
+        .cloneUrl {
+           position: absolute;
+           right:0;
+           font-size: 15px;
+        }
+        #shareInput {
+            width: 280px;
+            height: 23px;
+            background-color: #fff;
+            border-radius: 10px;
+            border: 1px solid #F8C42F;
+            pointer-events: none;
+        }
+        .cloneUrlButton {
+            border-radius: 10px;
+            border: 1px solid #F8C42F;
+            
+        }
+    }
+    
+
+.containerDetail {
+    position: relative;
+    margin-bottom: 70px;
+    .detailVerticalBanner {
+        position: absolute;
+        bottom: -140px;
+        left: 120px;
+        width: 164px;
+        height: 250px;
+    }
+    .detailsContents {
+        margin-top: $mt-150;
+
+        .detailMovieTitle {
+            font-size: 15px;
+        }
+        .movieImdb {
+            font-weight: 500;
+            margin-right: 10px;
+            
+        }
+
+        .movieDetail {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            margin: 20px 0;
+            .rating {
+                padding-left: 2px;
+                color: #F8C42F;
+            }
+        }
+
+        .movieSummary {
+            padding-left: 10px;
+            height: 55px;
+            overflow: hidden;
+            color: $globalSpanColor;
+            opacity: 0.98;
+        }
+        .showMore, .notRead {
+            padding-left: 10px;
+            margin-top: $mt-10;
+            color:#47CFFF;
+            display: inline-block;
+        }
+        .notRead {
+            display: none;
+        }
+        .SliderTitle {
+            padding-left: 15px;
+        }
+        .movieSlider {
+            width: 365px;
+            margin: 0  auto;
+            margin-top: $mt-10;
+            .SliderItem {
+                margin-right: 10px;
+                border-radius: 5px;
+                width: 104px;
+            }
+        }
+       
+        .movieSliderHeader, .blogAboutHeader {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-right: 15px;
+
+            a {
+                color: #47CFFF;
+                text-decoration: none
+            }
+        }
+        .blogAboutHeader {
+            padding: 15px;
+        }
+        .blogContainer {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-gap: 15px;
+            padding: 0 15px;
+            .blogTime  {
+                display:block;
+                opacity: $globalOpacity;
+                color: $globalSpanColor;
+                margin-top: $mt-10;
+            }
+            .blogBigTitle {
+                margin-top: $mt-10;
+            }
+            .blogImage {
+                width: 170px;
+                height: 220px;
+            }
+        }
+    }
+    .movieDetailCategoryDetails {
+        display: block;
+        color: $globalSpanColor;
+        opacity: $globalOpacity;
+    }
+}
+
+.movieItem:hover .mask {
+    display: block;
+}
+
+.swiper {
+    width: 380px;
+  }

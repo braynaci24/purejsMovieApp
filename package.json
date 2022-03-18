@@ -1,0 +1,17 @@
+{
+  "name": "movieapp3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "sass:watch": "sass -w ./src/assets/scss/style.scss ./src/assets/styles/styles.css",
+    "sass:build": "sass ./src/assets/scss/style.scss ./src/assets/styles/styles.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "braynaci",
+  "license": "ISC",
+  "dependencies": {
+    "jquery.rateit": "^1.1.5",
+    "sass": "^1.49.9"
+  }
+}

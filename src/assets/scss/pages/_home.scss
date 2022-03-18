@@ -1,0 +1,68 @@
+.d-flex {
+    display: flex !important;
+    justify-content: space-between;
+}
+.movieLengthTitle{
+    font-size: 15px;
+    display: none;
+    color: #222;
+    .movieLength {
+        margin: 0 5px 0 13px;
+        font-size: 15px;
+    }
+}
+
+#movieListContainer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: $globalPdng;
+    grid-gap: 11px;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+    margin-bottom: $mb-50;
+
+    #movieResultImage {
+        width: 180px;
+        height: 250px;
+    }
+
+    .movieItem {
+        margin-bottom: $mb-20;
+        text-decoration: none;
+        color: #222;
+        cursor: move;
+        .mask {
+            height: 250px;
+        }
+
+        .favStarPoint {
+            font-size: 17px;
+        }
+    }
+
+    .movieTitle {
+        font-size: $bigTitleSize;
+        margin-top: $mt-10;
+        margin-bottom: $mb-0;
+    }
+
+    .rating {
+        color: #F8C42F;
+    }
+
+    .movieCategoryDetails {
+        display: inline-block;
+        color: $globalSpanColor;
+        opacity: $globalOpacity;
+        font-size: $globalParagraphSize;
+    }
+
+    .errorResTitle {
+        color: #222;
+        position: absolute;
+        top: 388px;
+        text-align: center;
+        width: 90%;
+    }
+}

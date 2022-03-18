@@ -1,0 +1,50 @@
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+    padding: $globalPdng;
+    position: relative;
+    .siteTitle {
+        font-size: $bigTitleSize;
+    }
+    #search {
+        position: absolute;
+        width: 355px;
+        height: 50px;
+        display: none;
+        color: #222;
+        font-size: 17px;
+        padding-left: 5px;
+    }
+    #searchClose {
+        position: absolute;
+        z-index: 1;
+        right: 20px;
+        font-size: 25px;
+        display: none;
+        color: #F8C42F;
+    }
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: $globalPdng;
+    font-size: $globalFontAwesomeSize;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    .menuItem {
+        font-size: $globalFontAwesomeSize;
+        color: $globalSpanColor;
+        opacity: $globalOpacity;
+    }
+    
+}
